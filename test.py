@@ -14,7 +14,7 @@ for img_id in xrange(4541):
 
 	vo.update(img, img_id)
 
-	cur_t = vo.t
+	cur_t = vo.cur_t
 	if(img_id > 2):
 		x, y, z = cur_t[0], cur_t[1], cur_t[2]
 	else:
